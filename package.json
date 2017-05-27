@@ -2,6 +2,7 @@
     "name": "beatgit",
     "version": "0.1.0",
     "main": "beatgit.js",
+    "description": "A Bash and NodeJS Toolchain that helps you Leverage git.",
     "dependencies": {
         "bash.origin.test": "^0.1.30",
         "bash.origin": "^0.1.59"

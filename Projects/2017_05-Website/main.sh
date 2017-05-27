@@ -1,5 +1,10 @@
 #!/usr/bin/env bash.origin.script
 
+if [ ! -z "$CIRCLE_SHA1" ]; then
+    echo ">>>SKIP_TEST<<<"
+    exit 0
+fi
+
 echo "TEST_MATCH_IGNORE>>>"
 
 depend {
