@@ -8,7 +8,7 @@ depend {
 
 CALL_pages publish {
     "anchors": {
-        "body": "$__DIRNAME__/README.md"
+        "body": "$__DIRNAME__/../../README.md"
     },    
     "css": (css () >>>
         BODY {
