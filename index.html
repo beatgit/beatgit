@@ -74,6 +74,51 @@ TABLE {
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-    Hello World!
+    <table>
+<thead>
+<tr>
+<th style="text-align:center">License</th>
+<th style="text-align:center">Source</th>
+<th style="text-align:center">&#8212;&raquo;</th>
+<th style="text-align:center"><a href="https://github.com/beatgit/beatgit/blob/master/Projects/2017_05-Website/main.sh">Website</a></th>
+<th style="text-align:center"><a href="https://github.com/npm/npm">npm</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://opensource.org/licenses/FPL-1.0.0">FPL</a></td>
+<td style="text-align:center"><a href="https://github.com/beatgit/beatgit">github.com/beatgit/beatgit</a></td>
+<td style="text-align:center"><a href="https://circleci.com/gh/beatgit/beatgit"><img src="https://circleci.com/gh/beatgit/beatgit.svg?style=svg" alt="CircleCI"></a></td>
+<td style="text-align:center"><a href="https://beatgit.github.io/beatgit">beatgit.github.io/beatgit</a></td>
+<td style="text-align:center"><code>beatgit</code></td>
+</tr>
+</tbody>
+</table>
+<h1 id="undefinedbeatgit">beatgit</h1>
+<p>A Bash and <a href="https://nodejs.org/">NodeJS</a> Toolchain that helps you Leverage <a href="https://git-scm.com/">git</a> at a more Abstract Level for a Seamless Workflow with Others.</p>
+<h2 id="undefinedusage">Usage</h2>
+<h3 id="undefinedstart-your-own-node">Start Your Own Node</h3>
+<pre><code class="undefinedjavascript"><span class="hljs-built_in">require</span>(<span class="hljs-string">"beatgit"</span>).rise({
+    <span class="hljs-string">"pkey"</span>: <span class="hljs-string">"&lt;NodeJS compatible Private Key&gt;"</span>,
+    <span class="hljs-string">"attach"</span>: <span class="hljs-string">"github.com/${GITHUB_USER}/${GITHUB_REPOSITORY}"</span>
+}).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">TRUNK</span>) </span>{
+
+    <span class="hljs-comment">// trunk.id ~ Public Globally Unique ID (Public Key based)</span>
+    <span class="hljs-comment">// trunk.connect ~ Abstract Object to handle Communication</span>
+    <span class="hljs-comment">// trunk.fs ~ Globally Distributed Encrypted Filesystem</span>
+    <span class="hljs-comment">// trunk.workspace ~ Local Tools API</span>
+
+    <span class="hljs-keyword">return</span> TRUNK.connect.send(
+        <span class="hljs-string">"https://github.com/beatgit/beatgit.git"</span>,
+        TRUNK.fs(<span class="hljs-string">"${__DIRNAME__}"</span>)
+    }).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+        <span class="hljs-keyword">return</span> workspace.open(<span class="hljs-string">"localhost:$(PORT)"</span>);
+    });
+}).catch(<span class="hljs-built_in">console</span>.error);
+</code></pre>
+<h1 id="undefinedprovenance">Provenance</h1>
+<p>Original Source Logic under <a href="https://opensource.org/licenses/FPL-1.0.0">Free Public License</a> by <a href="http://christophdorn.com">Christoph Dorn</a> since 2017.</p>
+
 </body>
 </html>
