@@ -11,14 +11,10 @@ A Bash and [NodeJS](https://nodejs.org/) Toolchain that helps you Leverage [git]
 Usage
 -----
 
-```javascript
-const BEATGIT = require("beatgit");
-```
-
 ### Start Your Own Node
 
 ```javascript
-BEATGIT.rise({
+require("beatgit").rise({
     "pkey": "<NodeJS compatible Private Key>",
     "attach": "github.com/${GITHUB_USER}/${GITHUB_REPOSITORY}"
 }).then(function (TRUNK) {
@@ -26,10 +22,14 @@ BEATGIT.rise({
     // trunk.id ~ Public Globally Unique ID (Public Key based)
     // trunk.connect ~ Abstract Object to handle Communication
     // trunk.fs ~ Globally Distributed Encrypted Filesystem
+    // trunk.workspace ~ Local Tools API
 
     return TRUNK.connect.send(
         "https://github.com/beatgit/beatgit.git",
         TRUNK.fs("${__DIRNAME__}")
+    }).then(function () {
+
+        return workspace.open("localhost:$(PORT)");
     });
 }).catch(console.error);
 ```

@@ -1,18 +1,14 @@
 #!/usr/bin/env bash.origin.script
 
+echo "TEST_MATCH_IGNORE>>>"
+
 depend {
     "pages": "@com.github/pinf-to/to.pinf.com.github.pages#s1"
 }
 
 CALL_pages publish {
     "anchors": {
-        "body": (javascript () >>>
-
-//TODO: Scan for ... `### Start Your Own Node` and locate "```javascript" to run code in nodejs
-
-
-            return "Hello World!";
-        <<<)
+        "body": "$__DIRNAME__/README.md"
     },    
     "css": (css () >>>
         BODY {
@@ -75,3 +71,7 @@ CALL_pages publish {
         }
     <<<)
 }
+
+echo "<<<TEST_MATCH_IGNORE"
+
+echo "OK"

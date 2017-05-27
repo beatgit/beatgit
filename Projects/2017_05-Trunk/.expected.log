@@ -1,0 +1,59 @@
+Cloning into 'TeStLoCaLiZeD/.rt/bash.origin.gitscm/clones/_beatgit.git_b48cf0140bea12734db05ebcdb012f1d265bed84~.tmp'...
+Cloning into 'TeStLoCaLiZeD/.rt/to.pinf.com.github.pages/targets/_beatgit.git_b48cf0140bea12734db05ebcdb012f1d265bed84~.tmp'...
+From github.com:beatgit/beatgit
+ * [new branch]      master     -> origin/master
+From file:///dl/source/github.com~beatgit~beatgit/../../.git/modules/source/github.com~beatgit~beatgit
+ * [new branch]      master     -> source/master
+Already up-to-date.
+Cloning into 'TeStLoCaLiZeD/.rt/bash.origin.gitscm/clones/_html5-boilerplate.git_b48cf0140bea12734db05ebcdb012f1d265bed84~.tmp'...
+Cloning into 'TeStLoCaLiZeD/.rt/it.pinf.com.html5boilerplate/complete~.tmp'...
+From github.com:h5bp/html5-boilerplate
+ * [new branch]      dot-github              -> origin/dot-github
+ * [new branch]      greenkeeper-archiver-1.0.0 -> origin/greenkeeper-archiver-1.0.0
+ * [new branch]      greenkeeper-babel-core-6.5.2 -> origin/greenkeeper-babel-core-6.5.2
+ * [new branch]      greenkeeper-babel-core-6.7.4 -> origin/greenkeeper-babel-core-6.7.4
+ * [new branch]      greenkeeper-babel-core-6.7.5 -> origin/greenkeeper-babel-core-6.7.5
+ * [new branch]      greenkeeper-babel-core-6.7.6 -> origin/greenkeeper-babel-core-6.7.6
+ * [new branch]      greenkeeper-babel-core-6.7.7 -> origin/greenkeeper-babel-core-6.7.7
+ * [new branch]      greenkeeper-babel-core-6.8.0 -> origin/greenkeeper-babel-core-6.8.0
+ * [new branch]      greenkeeper-babel-core-6.9.0 -> origin/greenkeeper-babel-core-6.9.0
+ * [new branch]      greenkeeper-babel-core-6.9.1 -> origin/greenkeeper-babel-core-6.9.1
+ * [new branch]      greenkeeper-babel-preset-es2015-6.9.0 -> origin/greenkeeper-babel-preset-es2015-6.9.0
+ * [new branch]      greenkeeper-del-2.2.1   -> origin/greenkeeper-del-2.2.1
+ * [new branch]      greenkeeper-glob-7.0.4  -> origin/greenkeeper-glob-7.0.4
+ * [new branch]      greenkeeper-glob-7.0.5  -> origin/greenkeeper-glob-7.0.5
+ * [new branch]      greenkeeper-gulp-header-1.8.1 -> origin/greenkeeper-gulp-header-1.8.1
+ * [new branch]      greenkeeper-gulp-header-1.8.2 -> origin/greenkeeper-gulp-header-1.8.2
+ * [new branch]      greenkeeper-gulp-header-1.8.3 -> origin/greenkeeper-gulp-header-1.8.3
+ * [new branch]      greenkeeper-gulp-jshint-2.0.1 -> origin/greenkeeper-gulp-jshint-2.0.1
+ * [new branch]      greenkeeper-gulp-load-plugins-1.2.1 -> origin/greenkeeper-gulp-load-plugins-1.2.1
+ * [new branch]      greenkeeper-gulp-load-plugins-1.2.2 -> origin/greenkeeper-gulp-load-plugins-1.2.2
+ * [new branch]      greenkeeper-gulp-load-plugins-1.2.3 -> origin/greenkeeper-gulp-load-plugins-1.2.3
+ * [new branch]      greenkeeper-gulp-load-plugins-1.2.4 -> origin/greenkeeper-gulp-load-plugins-1.2.4
+ * [new branch]      greenkeeper-jquery-1.12.3 -> origin/greenkeeper-jquery-1.12.3
+ * [new branch]      greenkeeper-jquery-1.12.4 -> origin/greenkeeper-jquery-1.12.4
+ * [new branch]      greenkeeper-jquery-2.2.3 -> origin/greenkeeper-jquery-2.2.3
+ * [new branch]      greenkeeper-jquery-2.2.4 -> origin/greenkeeper-jquery-2.2.4
+ * [new branch]      greenkeeper-jquery-3.0.0 -> origin/greenkeeper-jquery-3.0.0
+ * [new branch]      greenkeeper-jshint-2.9.2 -> origin/greenkeeper-jshint-2.9.2
+ * [new branch]      greenkeeper-jshint-stylish-2.2.0 -> origin/greenkeeper-jshint-stylish-2.2.0
+ * [new branch]      greenkeeper-mocha-2.5.0 -> origin/greenkeeper-mocha-2.5.0
+ * [new branch]      greenkeeper-mocha-2.5.1 -> origin/greenkeeper-mocha-2.5.1
+ * [new branch]      greenkeeper-mocha-2.5.2 -> origin/greenkeeper-mocha-2.5.2
+ * [new branch]      greenkeeper-mocha-2.5.3 -> origin/greenkeeper-mocha-2.5.3
+ * [new branch]      greenkeeper-normalize.css-4.0.0 -> origin/greenkeeper-normalize.css-4.0.0
+ * [new branch]      greenkeeper-normalize.css-4.1.0 -> origin/greenkeeper-normalize.css-4.1.0
+ * [new branch]      greenkeeper-normalize.css-4.1.1 -> origin/greenkeeper-normalize.css-4.1.1
+ * [new branch]      greenkeeper-run-sequence-1.2.0 -> origin/greenkeeper-run-sequence-1.2.0
+ * [new branch]      greenkeeper-run-sequence-1.2.1 -> origin/greenkeeper-run-sequence-1.2.1
+ * [new branch]      manifest                -> origin/manifest
+ * [new branch]      master                  -> origin/master
+ * [new branch]      remove_browserconfig.xml_and_tile_images -> origin/remove_browserconfig.xml_and_tile_images
+ * [new branch]      v4                      -> origin/v4
+[gh-pages 7d72538] Updated pages
+ 3 files changed, 837 insertions(+)
+ create mode 100644 css/main.css
+ create mode 100644 css/normalize.css
+ create mode 100644 index.html
+To github.com:beatgit/beatgit.git
+ * [new branch]      gh-pages -> gh-pages
