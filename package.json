@@ -1,6 +1,6 @@
 {
     "name": "beatgit",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "beatgit.js",
     "description": "A Bash and NodeJS Toolchain that helps you Leverage git.",
     "dependencies": {
